@@ -15,8 +15,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.example.demo.MenuItem;
-import com.example.demo.MenuItemRepository;
+import com.example.demo.model.MenuItem;
+import com.example.demo.repository.MenuItemRepository;
 
 @RestController
 @RequestMapping("/menuItems")
